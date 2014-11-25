@@ -31,9 +31,12 @@ public class MemoryServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		String str = new String();
 	    ArrayList<String> myarrylist = new ArrayList<String>();
+	    ArrayList<String> myarraylist = new ArrayList<String>();
+
 	    int i = 10;
 	        while (true) {
 	    myarrylist.add(str);
+	    myarraylist.add(str);
 	    System.out.println(i);
 	    i++;
 	        }
